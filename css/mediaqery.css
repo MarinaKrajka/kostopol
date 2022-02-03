@@ -14,15 +14,13 @@
 }
 
 @media screen and (max-height: 420px) and (orientation: landscape) {
-    .main-container {display: none;
-    }
+    
     .links {
         margin-top: 250px;
     }
 }
-@media screen and (min-height: 480px) and (max-height: 820px) {
-    .main-container {display: none;
-    }
+@media screen and (min-height: 419px) and (max-height: 820px) {
+    
     .links {
         margin-top: 100px;
     }
