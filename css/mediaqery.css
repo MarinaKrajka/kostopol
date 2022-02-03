@@ -1,0 +1,14 @@
+@media screen and (max-width: 650px) {
+    .main-container {display: none;
+    }
+    .links {
+        position: absolute;
+        margin-top: -10px;
+    }
+    .gerb {
+        display:flex;
+        position: relative;
+        justify-content: center;
+        margin-top: 20rem;      
+    }
+}
