@@ -317,9 +317,8 @@ ul {
   flex-direction: column;
   margin-top: 190px;
   margin-left: 30px;
-  max-width: 80%;
-  width: 100%;
-  text-align: center;
+  margin-right: 30px;
+  text-align: inherit;
   color: rgb(243, 235, 235);
   font-weight: 100;
   transition: 0.5s;
