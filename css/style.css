@@ -330,7 +330,11 @@ ul {
 .content.active {
   width:50%;
 }
+.content.mob {
+  display: none;
+}
 
 .gerb {
   display: none;
 }
+
