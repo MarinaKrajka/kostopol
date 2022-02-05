@@ -315,6 +315,10 @@ ul {
   text-align: center;
 }
 
+.zagolovok {
+  text-align: center;
+}
+
 
 .content {
   display: flex;
@@ -336,5 +340,13 @@ ul {
 
 .gerb {
   display: none;
+}
+
+.baner {
+  display: flex;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  justify-content: center;
 }
 
