@@ -14,9 +14,8 @@ hamburger_menu.addEventListener("click", () => {
 
 mobil.addEventListener("change", () => {
      {
-         //делаем проверку mobil
-         alert ("hhhhhhhhhhhhh")
-        
+      document.location.reload();
+         
     }
     
 });
