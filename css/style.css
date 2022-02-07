@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+}
+
 body,
 button {
   font-family: "Poppins", sans-serif;
@@ -211,7 +215,7 @@ ul {
   transition: 0.3s;
   opacity: 0;
   transform: translateY(10px);
-  animation: hide 0.5s forwards ease;
+  animation: hide 0.2s forwards ease;
 }
 
 
@@ -344,6 +348,10 @@ ul {
 }
 
 .gerb {
+  display: none;
+}
+
+.gerb.active {
   display: none;
 }
 
