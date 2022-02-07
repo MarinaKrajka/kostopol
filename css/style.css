@@ -13,11 +13,13 @@ button {
 
 .container {
   min-height: 100vh;
-  width: 100%;
+  max-width: 1200px;
   background-color: #615e48;
   background-image: linear-gradient(135deg, #281dc46b 0%, #330925 74%);
   overflow-x: hidden;
   transform-style: preserve-3d;
+  margin: 0px auto;
+  padding: 0px 15px;
 }
 
 .navbar {
