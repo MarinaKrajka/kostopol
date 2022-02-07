@@ -200,7 +200,7 @@ ul {
 .links a {
   text-decoration: none;
   color: #eee;
-  padding: 0.7rem 50px;
+  padding: 0.35rem 20px;
   display: inline-block;
   font-size: 1rem;
   font-weight: 300;
@@ -325,14 +325,15 @@ ul {
   display: flex;
   flex-direction: column;
   margin-top: 190px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: inherit;
   color: rgb(243, 235, 235);
   font-weight: 100;
   transition: 0.5s;
 }
 .content.active {
+  margin-left: 30px;
   width:50%;
 }
 .content.mob {
