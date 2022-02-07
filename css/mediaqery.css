@@ -3,7 +3,7 @@
     }
     .links {
         position: absolute;
-        margin-top: 40px;
+        margin-top: 5%;
     }
     .gerb {
         display:flex;
@@ -16,12 +16,12 @@
 @media screen and (max-height: 420px) and (orientation: landscape) {
     
     .links {
-        margin-top: 250px;
+        margin-top: 30%;
     }
 }
 @media screen and (max-height: 800px) and (orientation: portrait) {
     
     .links {
-        margin-top: 130px;
+        margin-top: 35%;
     }
 }
