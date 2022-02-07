@@ -24,4 +24,8 @@
     .links {
         margin-top: 20%;
     }
+    .content.active {
+        filter: opacity(0.15);
+        color: #ffffff;
+    }
 }
