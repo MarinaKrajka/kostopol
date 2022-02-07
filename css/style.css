@@ -182,15 +182,17 @@ header {
 
 .links {
   display: flex;
+  flex: content;
   position: absolute;
   max-width: 40%;
   right: 35px;
-  top: -30px;
+  top: 10px;
+  bottom: auto;
   height: 100vh;
   z-index: 2;
-  display: flex;
   justify-content: center;
   align-items:center;
+  align-items: center;
 }
 
 ul {
@@ -323,6 +325,7 @@ ul {
 
 .content {
   display: flex;
+  flex: content;
   flex-direction: column;
   width: 75%;
   margin-top: 190px;
@@ -331,7 +334,6 @@ ul {
   text-align: inherit;
   color: rgb(243, 235, 235);
   font-weight: 100;
-  transition: 0.5s;
 }
 .content.active {
   margin-left: 30px;
