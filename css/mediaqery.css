@@ -16,12 +16,12 @@
 @media screen and (max-height: 420px) and (orientation: landscape) {
     
     .links {
-        margin-top: 30%;
+        margin-top: 15%;
     }
 }
 @media screen and (max-height: 800px) and (orientation: portrait) {
     
     .links {
-        margin-top: 35%;
+        margin-top: 20%;
     }
 }
