@@ -188,7 +188,7 @@ header {
   display: flex;
   flex: content;
   position: absolute;
-  max-width: 40%;
+  max-width: 90%;
   right: 35px;
   top: 10px;
   bottom: auto;
