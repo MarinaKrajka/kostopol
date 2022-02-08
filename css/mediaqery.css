@@ -15,6 +15,13 @@
     .images img {
        width: 100%;  
    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+      }
 }
 
 @media screen and (max-height: 420px) and (orientation: landscape) {
