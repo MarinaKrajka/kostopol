@@ -18,9 +18,18 @@
     .links {
         margin-top: 15%;
     }
-     .content.active {
+     .content.active 
+    {
         filter: opacity(0.15);
         color: #ffffff;
+    }
+    
+    h3 {
+        font-size: 110%;
+    }
+    
+    p {
+        font-size: 80%;
     }
 }
 @media screen and (max-height: 800px) and (orientation: portrait) {
