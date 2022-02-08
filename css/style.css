@@ -352,6 +352,19 @@ ul {
   display: none;
 }
 
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+  border: 2px #eee;
+}
+
+.images img {
+  width: 48%;
+  margin: 1%;
+}
+
 .gerb {
   display: none;
 }
