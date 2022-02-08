@@ -318,7 +318,11 @@ ul {
 .container.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(440px) scale(0.5);
 }
+
 .whoare {
+  padding-bottom: 10%;
+}
+
   text-align: center;
 }
 
