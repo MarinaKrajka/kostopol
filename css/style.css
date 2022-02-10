@@ -117,7 +117,7 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(92, 66, 240, 0.226);
+  background-color: rgba(18, 42, 78, 0.24);
   display: flex;
   justify-content:center;
   align-items: center;
@@ -205,12 +205,14 @@ ul {
 
 .links a {
   text-decoration: none;
-  color: #eee;
+  color: rgb(251, 255, 0);
   padding: 0.35rem 20px;
   display: inline-block;
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0), 0 0 1em rgba(247, 252, 0, 0), 0 0 1.2em rgb(0, 0, 0);
+
   letter-spacing: 1px;
   transition: 0.3s;
   opacity: 0;
@@ -220,7 +222,7 @@ ul {
 
 
 .links a:hover {
-  color: rgb(72, 230, 222);
+  color: rgba(203, 208, 221, 0.575);
   font-weight: 700;
 }
 
@@ -260,7 +262,7 @@ ul {
   transform-style: preserve-3d;
   transform-origin: left;
   transition: 0.5s;
-  background-color: rgb(182, 34, 241);
+  background-color: rgb(150, 223, 223);
 }
 
 .shadow.one {
@@ -322,10 +324,7 @@ ul {
 .whoare {
   text-align: center;
   padding-bottom: 10%;
-}
-
-.zagolovok {
-  text-align: center;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0), 0 0 1em rgba(247, 252, 0, 0), 0 0 0.3em rgb(0, 0, 0);
 }
 
 
@@ -338,7 +337,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: inherit;
-  color: rgb(255, 255, 255);
+  color: rgba(212, 234, 255, 0.671);
   font-weight: 100;
 }
 .content.active {
