@@ -36,6 +36,10 @@
         margin-top: 16%;
         height: 50%;
     }
+
+    .container {
+        min-height: 120vh;
+}
     
     .links a {
         font-size: 0.75rem;      
