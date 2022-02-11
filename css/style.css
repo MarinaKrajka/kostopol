@@ -218,11 +218,11 @@ ul {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-shadow: 3px 3px 4px rgb(0, 0, 0), 0 0 1em rgba(247, 252, 0, 0), 0 0 1.2em rgb(0, 0, 0);
+  /*text-shadow: 3px 3px 4px rgb(0, 0, 0), 0 0 1em rgba(247, 252, 0, 0), 0 0 1.2em rgb(0, 0, 0);*/
   transition: 0.3s;
   opacity: 0;
   transform: translateY(10px);
-  animation: hide 0.2s forwards ease;
+  animation: hide 0.8s forwards ease;
 
 }
 
@@ -240,7 +240,7 @@ ul {
 @keyframes appear {
   from {
     opacity: 0;
-    transform: translateY(-800px);
+    transform: translateY(-40rem);
   }
   to {
     opacity: 1;
@@ -251,11 +251,11 @@ ul {
 @keyframes hide {
   from {
     opacity: 0;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   to {
     opacity: 1;
-    transform: translateY(-800px);
+    transform: translateX(40rem);
   }
 }
 
