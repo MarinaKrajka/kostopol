@@ -46,6 +46,7 @@
     .content.active {
         filter: opacity(0.15);
         color: #ffffff;
+        width: 40%;
     }
 
     h3 {
