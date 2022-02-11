@@ -4,7 +4,7 @@
     .links {
         position: absolute;
         margin-top: 5%;
-        height: 70%;
+        height: 70vh;
     }
     .gerb {
         display:flex;
@@ -33,7 +33,7 @@
     
     .links {
         margin-top: 10%;
-        height: 70%;
+        height: 50vh;
     }
     
     .links a {
