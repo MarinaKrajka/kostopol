@@ -28,9 +28,9 @@ button {
   padding: 0px 15px;
 }
 
-.container.active {
+/*.container.active {
   transform-style: preserve-3d;
-}
+}*/
 
 .navbar {
   position: fixed;
