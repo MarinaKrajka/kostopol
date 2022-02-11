@@ -4,6 +4,7 @@
     .links {
         position: absolute;
         margin-top: 5%;
+        height: 70%;
         
     }
     .gerb {
@@ -33,6 +34,7 @@
     
     .links {
         margin-top: 10%;
+        height: 60%;
     }
     
     .links a {
