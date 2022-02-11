@@ -32,9 +32,8 @@
 @media screen and (max-height: 420px) and (orientation: landscape) {
     
     .links {
-        margin-top: 15%;
-        max-width: 70%;
-        max-height: 60vh;
+        margin-top: 10%;
+        height: 70%;
     }
     
     .links a {
