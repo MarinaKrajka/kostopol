@@ -1,22 +1,10 @@
-@media screen and (max-width: 992px) {
-    .container{
-        max-width: 850px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .container{
-    }
-}
-
-
 @media screen and (max-width: 650px) and (orientation: portrait) {
     .main-container {display: none;
     }
     .links {
         position: absolute;
-        margin-top: 5%;
-        height: 70%;
+        margin-top: 155px;
+        height: 400px;
     }
    
     .gerb {
@@ -45,8 +33,8 @@
 @media screen and (max-height: 490px) and (orientation: landscape) {
     
     .links {
-        margin-top: 10%;
-        height: 60%;
+        margin-top: 175px;
+        height: 300px;
     }
 
 
