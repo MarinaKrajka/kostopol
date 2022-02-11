@@ -42,7 +42,7 @@
       }
 }
 
-@media screen and (max-height: 420px) and (orientation: landscape) {
+@media screen and (max-height: 490px) and (orientation: landscape) {
     
     .links {
         margin-top: 10%;
