@@ -35,14 +35,14 @@
     .links {
         display: inline-flex;
         flex-direction: row;
-        justify- content: center;
+        justify-content: center;
         position: relative;
         margin-top: 6%;
         width: 80%;
     }
 
     .container {
-        min-height: 140h;
+        min-height: 140hv;
 }
     
     .links a {
