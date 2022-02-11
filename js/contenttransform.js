@@ -1,7 +1,7 @@
 const hamburger_menu = document.querySelector(".hamburger-menu");
 const content = document.querySelector(".content");
 const container = document.querySelector(".container");
-const mobil = window.matchMedia("screen and (max-width: 409px)");
+const mobil = window.matchMedia("screen and (max-width: 422px)");
 
 hamburger_menu.addEventListener("click", () => {
     content.classList.toggle("active");
