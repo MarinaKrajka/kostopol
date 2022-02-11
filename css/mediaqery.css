@@ -4,6 +4,7 @@
     .links {
         position: absolute;
         margin-top: 5%;
+        height: 70%;
     }
     .gerb {
         display:flex;
@@ -33,6 +34,11 @@
     .links {
         margin-top: 15%;
     }
+    
+    .links a {
+        font-size: 0.75rem;      
+      }
+    
      .content.active 
     {
         filter: opacity(0.15);
