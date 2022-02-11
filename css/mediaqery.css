@@ -33,12 +33,12 @@
 @media screen and (max-height: 420px) and (orientation: landscape) {
     
     .links {
-        margin-top: 16%;
+        margin-top: 23%;
         height: 50%;
     }
 
     .container {
-        min-height: 120vh;
+        min-height: 140h;
 }
     
     .links a {
