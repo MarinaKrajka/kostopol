@@ -33,8 +33,12 @@
 @media screen and (max-height: 420px) and (orientation: landscape) {
     
     .links {
-        margin-top: 23%;
-        height: 50%;
+        display: inline-flex;
+        flex-direction: row;
+        justify- content: center;
+        position: relative;
+        margin-top: 6%;
+        width: 80%;
     }
 
     .container {
