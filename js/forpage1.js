@@ -41,7 +41,7 @@ let aLink = linksliP.document.querySelectorAll("a");*/
 var el2 = aLinks[2];
 
 
-const page1 = window.matchMedia("screen and (max-height: 490px)");
+const page1 = window.matchMedia("screen and (max-height: 490px) and (orientation: landscape)");
 
 hamburger_menu.addEventListener("click", () => {
 
@@ -60,4 +60,3 @@ alert("Я заменил 3 пункт меню. Его видно только �
     }
     
 });
-console.log(el2);
