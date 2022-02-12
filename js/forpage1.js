@@ -54,9 +54,14 @@ hamburger_menu.addEventListener("click", () => {
   element.style.fontSize = '0.7rem';
 });
 aLinks.forEach(element => {
-    el2.textContent = "Влас, посмотри! Ну наконец то!!!"
+    el2.textContent = "Влас, действуй!!!"
 });
 alert("Я заменил 3 пункт меню. Его видно только на этой странице и только в горизонтальном положении");
     }
     
+});
+
+page1.addEventListener("change", () => {
+    
+    document.location.reload();
 });
