@@ -23,6 +23,7 @@ button {
   linear-gradient(135deg, rgba(22, 120, 177, 0.808), rgba(255, 255, 255, 0) 70.71%),
   linear-gradient(336deg, rgba(8, 12, 56, 0.842), rgba(255, 0, 0, 0) 70.71%);
   overflow-x: hidden;
+  overflow-y: scroll;
   transform-style: preserve-3d;
   margin: 0px auto;
   padding: 0px 15px;
