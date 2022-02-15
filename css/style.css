@@ -20,18 +20,15 @@ button {
   width: 100%;
   background-color: #000000;
   /*background-image: linear-gradient(135deg, #281dc46b 0%, #330925 74%);*/
-  background-image: linear-gradient(217deg, rgba(0, 0, 0, 0.8), rgba(255,0,0,0) 70.71%),
-  linear-gradient(135deg, rgba(22, 120, 177, 0.808), rgba(255, 255, 255, 0) 70.71%),
-  linear-gradient(336deg, rgba(8, 12, 56, 0.842), rgba(255, 0, 0, 0) 70.71%);
+  /*background-image: linear-gradient(217deg, rgba(9, 31, 3, 0.87), rgb(2, 3, 14) 70.71%);*/
   overflow-x: hidden;
   transform-style: none;
   margin: 0px auto;
-  padding: 0px 15px;
 }
 
-/*.container.active {
-  transform-style: preserve-3d;
-}*/
+.container.active {
+  transform-style: none;
+}
 
 .navbar {
   position: fixed;
@@ -210,15 +207,17 @@ header {
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
   list-style:none;
 
 }
 
 .links a {
+  display: flex;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.774);
   padding: 0.35rem 20px;
-  display: inline-block;
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -233,7 +232,7 @@ ul {
 
 
 .links a:hover {
-  color: rgba(192, 22, 22, 0.733);
+  color: rgb(255, 0, 0);
   font-weight: 500;
 }
 
@@ -332,10 +331,10 @@ ul {
   transform: perspective(1300px) rotateY(20deg) translateZ(440px) scale(0.5);
 }
 .whoare {
-  padding-bottom: 10%;
+  padding-top: 10%;
   text-align: center;
   color: rgb(255, 0, 0);
-  text-shadow: 3px 3px 4px rgb(0, 0, 0), 0 0 1em rgba(247, 252, 0, 0), 0 0 0.3em rgb(0, 0, 0);
+  text-shadow: 3px 0px 0px rgba(252, 0, 0, 0.411), 0 0 1em rgb(0, 0, 0), 0 0 0.3em rgb(0, 0, 0);
 }
 
 
@@ -357,7 +356,7 @@ ul {
 }
 .content.active {
   margin-left: 30px;
-  width:50%;
+  width: 50%;
 }
 
 .contentshadow {
@@ -367,11 +366,28 @@ ul {
   display: none;
 }
 
+.textcontent {
+  display: block;
+}
+
+.textcontent p {
+  padding: 20px;
+}
+
 .images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.images.show {
+  opacity: 1;
+  transition: opacity 1.9s;
+  transform: translateY(0px);
+
 }
 
 .images img {
@@ -430,24 +446,30 @@ option {
 
 .act {
   display: flex;
-  width: 150px;
+  width: 100%;
   text-decoration: line-through;
   background-color: rgba(77, 248, 10, 0.9);
   border: 4px solid #0877f5;
 }
 .notact {
   display: flex;
-  width: 150px;
+  flex-direction: column;
+  width: 100%;
   background-color: #1179e7;
   border: 5px solid #ece916;
   text-decoration: none;
   font-weight: 700;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  
+
 }
 
 ol {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
