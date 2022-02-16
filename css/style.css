@@ -333,8 +333,8 @@ ul {
 .whoare {
   opacity: 0;
   transform: translateY(0);
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 12%;
+  padding-bottom: 3%;
   text-align: center;
   color: rgb(255, 0, 0);
   text-shadow: 3px 0px 0px rgba(252, 0, 0, 0.411), 0 0 1em rgb(0, 0, 0), 0 0 0.3em rgb(0, 0, 0);
@@ -389,15 +389,16 @@ ul {
   display: block;
 }
 
-.textcontent p {
+/*.textcontent p {
   padding: 20px;
-}
+}*/
 
 .images {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 12%;
+  margin-bottom: 3%;
   opacity: 0;
   transform: translateY(50px);
 }
