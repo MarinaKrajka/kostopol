@@ -57,6 +57,7 @@ aLinks.forEach(element => {
     el2.textContent = "Влас, действуй!!!"
 });
 alert("Я заменил 3 пункт меню. Его видно только на этой странице и только в горизонтальном положении");
+
     }
     
 });
@@ -65,3 +66,4 @@ page1.addEventListener("change", () => {
     
     document.location.reload();
 });
+console.log(el2);
