@@ -341,7 +341,7 @@ ul {
 }
 .whoare.show {
   opacity: 1;
-  animation: whoare-animation 2.2s ease;
+  animation: whoare-animation 0.9s ease;
   
 }
 @keyframes whoare-animation {
@@ -413,6 +413,7 @@ ul {
 
 .images img {
   align-items: center;
+  object-fit: contain;
 }
 
 .gerb {
