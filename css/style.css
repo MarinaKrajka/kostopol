@@ -396,6 +396,7 @@ ul {
 .images {
   display: flex;
   flex-direction: column;
+  align-self: center;
   width: 100%;
   margin-top: 12%;
   margin-bottom: 3%;
