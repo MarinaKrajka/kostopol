@@ -331,7 +331,7 @@ ul {
   transform: perspective(1300px) rotateY(20deg) translateZ(440px) scale(0.5);
 }
 .whoare {
-  /*opacity: 0;*/
+  opacity: 0;
   transform: translateY(0);
   padding-top: 10%;
   padding-bottom: 10%;
@@ -340,8 +340,8 @@ ul {
   text-shadow: 3px 0px 0px rgba(252, 0, 0, 0.411), 0 0 1em rgb(0, 0, 0), 0 0 0.3em rgb(0, 0, 0);
 }
 .whoare.show {
-  /*opacity: 1;*/
-  animation: whoare-animation 1.2s ease;
+  opacity: 1;
+  animation: whoare-animation 2.2s ease;
   
 }
 @keyframes whoare-animation {
@@ -351,6 +351,7 @@ ul {
   }
 
   to {
+    opacity: 1;
     transform: translate(0) perspective(30px);
   }
 }
@@ -394,7 +395,7 @@ ul {
 
 .images {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
   margin-top: 30px;
   opacity: 0;
