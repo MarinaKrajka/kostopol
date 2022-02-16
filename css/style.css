@@ -331,10 +331,28 @@ ul {
   transform: perspective(1300px) rotateY(20deg) translateZ(440px) scale(0.5);
 }
 .whoare {
+  /*opacity: 0;*/
+  transform: translateY(0);
   padding-top: 10%;
+  padding-bottom: 10%;
   text-align: center;
   color: rgb(255, 0, 0);
   text-shadow: 3px 0px 0px rgba(252, 0, 0, 0.411), 0 0 1em rgb(0, 0, 0), 0 0 0.3em rgb(0, 0, 0);
+}
+.whoare.show {
+  animation: whoare-animation 1.2s ease;
+  
+}
+@keyframes whoare-animation {
+  from {
+    opacity: 0;
+    transform: translateX(-295px) perspective(310px) rotateX(90deg) translateZ(41px) scale(1.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0) perspective(30px);
+  }
 }
 
 
@@ -389,6 +407,11 @@ ul {
   transform: translateY(0px);
 
 }
+
+/*.images img {
+  width: 48%;
+  margin: 1%;
+}*/
 
 .gerb {
   display: none;
