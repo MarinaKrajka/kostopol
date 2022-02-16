@@ -6,12 +6,11 @@ function onEntry(entry) {
 	});
   }
   
-  let options = {
+  let optionss = {
 	threshold: [0.5] };
-  let observer = new IntersectionObserver(onEntry, options);
-  let elements = document.querySelectorAll('.whoare');
+  let observerr = new IntersectionObserver(onEntry, optionss);
+  let elementss = document.querySelectorAll('.whoare');
   
-  for (let elm of elements) {
-	observer.observe(elm);
+  for (let elm of elementss) {
+	observerr.observe(elm);
   }
-console.log(elements);
