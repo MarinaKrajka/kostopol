@@ -347,7 +347,7 @@ ul {
 @keyframes whoare-animation {
   from {
     opacity: 0;
-    transform: translateX(-295px) perspective(310px) rotateX(90deg) translateZ(41px) scale(1.5);
+     transform: translateX(-295px) perspective(210px) rotateZ(30deg) translateZ(11px) scale(4.5);
   }
 
   to {
