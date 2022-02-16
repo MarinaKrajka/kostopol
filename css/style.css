@@ -347,7 +347,7 @@ ul {
 @keyframes whoare-animation {
   from {
     opacity: 0;
-     transform: translateX(-295px) perspective(210px) rotateZ(30deg) translateZ(11px) scale(4.5);
+    transform: translateX(-295px) perspective(210px) rotateZ(30deg) translateZ(11px) scale(4.5);
   }
 
   to {
@@ -395,8 +395,8 @@ ul {
 
 .images {
   display: flex;
+  object-fit: contain;
   flex-direction: column;
-  align-self: center;
   width: 100%;
   margin-top: 12%;
   margin-bottom: 3%;
@@ -411,10 +411,9 @@ ul {
 
 }
 
-/*.images img {
-  width: 48%;
-  margin: 1%;
-}*/
+.images img {
+  align-items: center;
+}
 
 .gerb {
   display: none;
