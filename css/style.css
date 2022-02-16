@@ -386,7 +386,7 @@ ul {
 }
 
 .textcontent {
-  display: flex;
+  display: block;
 }
 
 .textcontent p {
