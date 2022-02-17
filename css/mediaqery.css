@@ -16,6 +16,9 @@
         justify-content: center;
         margin-top: 20rem;      
     }
+    p {
+        font-size: 90%;
+    }
 
     
 
@@ -50,9 +53,6 @@
         color: #ffffff;
         width: 40%;
     }
-    img {
-       /* max-height: 100vh;*/
-    }
     
 
     h3 {
@@ -60,7 +60,7 @@
     }
     
     p {
-        font-size: 90%;
+        font-size: 100%;
     }
     
 }
