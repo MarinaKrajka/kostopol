@@ -357,10 +357,6 @@ ul {
 }
 
 
-.overfloat {
-  height: 100%;
-}
-
 .content {
   display: flex;
   flex: content;
