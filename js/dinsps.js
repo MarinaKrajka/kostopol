@@ -14,6 +14,7 @@
         refreshDynamicSelectOptions(sel1, sel2, clonedOptions);
       });
     };
+    
   
     // Функция для сборки динамического списка
     const refreshDynamicSelectOptions = (sel1, sel2, clonedOptions) => {
@@ -45,3 +46,5 @@
       dynamicSelect("select-2", "select-3");
     });
   })();
+
+  
