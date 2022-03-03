@@ -129,56 +129,222 @@
           <div class="textcontent">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloribus deleniti laboriosam inventore voluptatum necessitatibus iste voluptatibus iusto! Autem natus facilis unde ab voluptates expedita totam sed? Explicabo, recusandae quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloribus deleniti laboriosam inventore voluptatum necessitatibus iste voluptatibus iusto! Autem natus facilis unde ab voluptates expedita totam sed? Explicabo, recusandae quos.</p>
           </div>
-        <!-- динамический выпадающий список-->
-          <div class="dinsps">
-            <form action="#" method="post">
-                <select id="select-1">
-                  <option value="select">Select...</option>
-                  <option value="a">A</option>
-                  <option value="b">B</option>
-                  <option value="c">C</option>
-                </select>
-                
-                <select id="select-2">
-                  <option class="select" value="select">Select...</option>
-                  <option class="a" value="aa">A-A</option>
-                  <option class="a" value="ab">A-B</option>
-                  <option class="a" value="ac">A-C</option>
-                  <option class="b" value="ba">B-A</option>
-                
-                  <option class="b" value="bb">B-B</option>
-                  <option class="b" value="bc">B-C</option>
-                  <option class="c" value="ca">C-A</option>
-                  <option class="c" value="cb">C-B</option>
-                  <option class="c" value="cc">C-C</option>
-                </select>
-                
-                <select id="select-3">
-                  <option class="select" value="select">Select...</option>
-                  <option class="aa" value="aaa">A-A-A</option>
-                  <option class="aa" value="aab">A-A-B</option>
-                  <option class="ab" value="aba">A-B-A</option>
-                  <option class="ab" value="abb">A-B-B</option>
-                
-                  <option class="ac" value="aca">A-C-A</option>
-                  <option class="ac" value="acb">A-C-B</option>
-                  <option class="ba" value="baa">B-A-A</option>
-                  <option class="ba" value="bab">B-A-B</option>
-                  <option class="bb" value="bba">B-B-A</option>
-                  <option class="bb" value="bbb">B-B-B</option>
-                
-                  <option class="bc" value="bca">B-C-A</option>
-                  <option class="bc" value="bcb">B-C-B</option>
-                  <option class="ca" value="caa">C-A-A</option>
-                  <option class="ca" value="cab">C-A-B</option>
-                  <option class="cb" value="cba">C-B-A</option>
-                  <option class="cb" value="cbb">C-B-B</option>
-                
-                  <option class="cc" value="cca">C-C-A</option>
-                  <option class="cc" value="ccb">C-C-B</option>
-                </select>
-                </form>
-          </div>
+        <!-- forms-->
+        <form id="globalForm" action="">
+          <div class="forms">
+            <div id="dinsps1" class="dinsps">
+              <form name="myForm1" action="#" method="post">
+    
+                  <select id="select-1">
+                    <option value="select">Виберіть дію</option>
+                    <option value="a">Надати допомогу</option>
+                    <option value="b">Просити допомогу</option>
+                    <option value="c">Повідомити про небезпеку</option>
+                    <option value="d">Пошук людей</option>
+                  </select>
+                  
+                  <select id="select-2">
+                    <option class="select" value="select">Виберіть дію</option>
+                    <option class="a" value="aa">Проживання/Прихисток</option>
+                    <option class="a" value="ab">Продовольство</option>
+                    <option class="a" value="ac">Матеріальна допомога</option>
+                    <option class="a" value="ad">Медична допомога</option>
+                    <option class="a" value="ae">Консультації</option>
+                    <option class="a" value="af">Транспортування</option>
+                    <option class="a" value="ag">Догляд/Охорона</option>
+    
+    
+    
+                    <option class="b" value="ba">Консультації</option>
+                    <option class="b" value="bb">Медична допомога</option>
+                    <option class="b" value="bc">Догляд/Охорона</option>
+                    <option class="b" value="bd">Транспорт</option>
+                    <option class="b" value="be">Прихисток</option>
+    
+    
+                    <option class="c" value="ca">Військові дії</option>
+                    <option class="c" value="cb">Мародерство</option>
+                    <option class="c" value="cc">Екологічна загроза</option>
+                    <option class="c" value="cd">Інше</option>
+    
+                    <option class="d" value="da">Безвісти зниклі</option>
+                    <option class="d" value="db">Загиблі</option>
+                  </select>
+                  
+                  <select id="select-3">
+                    <option class="select" value="select">Select...</option>
+                    <option class="aa" value="aaa">Короткостроковий прихисток (до 7 днів)</option>
+                    <option class="aa" value="aab">Середньостроковий прихисток (до 30 днів</option>
+                    <option class="aa" value="aaс">Довгостроковий прихисток (більше 30 днів</option>
+    
+                    <option class="ab" value="aba">Для потреб біженців та постраждалих</option>
+                    <option class="ab" value="abb">Для потреб військових</option>
+                  
+                    <option class="ac" value="aca">A-C-A</option>
+                    <option class="ac" value="acb">A-C-B</option>
+                    <option class="ba" value="baa">B-A-A</option>
+                    <option class="ba" value="bab">B-A-B</option>
+                    <option class="bb" value="bba">B-B-A</option>
+                    <option class="bb" value="bbb">B-B-B</option>
+                  
+                    <option class="bc" value="bca">B-C-A</option>
+                    <option class="bc" value="bcb">B-C-B</option>
+                    <option class="ca" value="caa">C-A-A</option>
+                    <option class="ca" value="cab">C-A-B</option>
+                    <option class="cb" value="cba">C-B-A</option>
+                    <option class="cb" value="cbb">C-B-B</option>
+                  
+                    <option class="cc" value="cca">C-C-A</option>
+                    <option class="cc" value="ccb">C-C-B</option>
+                  </select>
+              </form>
+            </div>
+            <!--form2-->
+            <div id="dinsps2" class="dinsps">
+              <form name="myForm" action="#" method="post">
+                  <select name="continents" id="select-11">
+                    <option value="select">Вкажіть регіон</option>
+                    <option value="a">Україна</option>
+                    <option value="b">Країни ЄС</option>
+                    <option value="c">Країни Євразії</option>
+                    <option value="d">Америка</option>
+                    <option value="e">Африка</option>
+      
+                  </select>
+                  
+                  <select name="regions" id="select-21">
+                    <option class="select" value="select">Уточніть регіон</option>
+                    <option class="a" value="aa">Київська область</option>
+                    <option class="a" value="ab">Харківська область</option>
+                    <option class="a" value="ac">Донецька область </option>
+                    <option class="a" value="ad">Луганська область </option>
+                    <option class="a" value="ae">АР Крим </option>
+                    <option class="a" value="af">Вінницька область </option>
+                    <option class="a" value="ag">Волинська область </option>
+                    <option class="a" value="ah">Дніпропетроська область </option>
+                    <option class="a" value="ai">Житомирська область </option>
+                    <option class="a" value="aj">Закарпатська область </option>
+                    <option class="a" value="ak">Запорізька область </option>
+                    <option class="a" value="al">Івано-Франківська область </option>
+                    <option class="a" value="am">Кіровоградська область </option>
+                    <option class="a" value="ao">Львівська область </option>
+                    <option class="a" value="ap">Миколаївська область </option>
+                    <option class="a" value="aq">Одеська область </option>
+                    <option class="a" value="ar">Полтавська область </option>
+                    <option class="a" value="as">Рівненська область </option>
+                    <option class="a" value="at">Сумська область </option>
+                    <option class="a" value="au">Тернопільська область </option>
+                    <option class="a" value="av">Херсонська область </option>
+                    <option class="a" value="aw">Хмельницька область </option>
+                    <option class="a" value="ax">Черкаська область </option>
+                    <option class="a" value="ay">Чернівецька область </option>
+                    <option class="a" value="az">Чернігіська область </option>
+                    
+                    <option class="b" value="ba">Польща</option>
+                    <option class="b" value="bb">Литва</option>
+                    <option class="b" value="bc">Латвія</option>
+                    <option class="b" value="bd">Словаччина</option>
+                    <option class="b" value="be">Румунія</option>
+                    <option class="b" value="bf">Болгарія</option>
+                    <option class="b" value="bg">Хорватія</option>
+                    <option class="b" value="bh">Чехія</option>
+                    <option class="b" value="bi">Венгрія</option>
+                    <option class="b" value="bj">Австрія</option>
+                    <option class="b" value="bk">Бельгія</option>
+                    <option class="b" value="bl">Греція</option>
+                    <option class="b" value="bm">Данія</option>
+                    <option class="b" value="bn">Естонія</option>
+                    <option class="b" value="bo">Ірландія</option>
+                    <option class="b" value="bp">Іспанія</option>
+                    <option class="b" value="bq">Італія</option>
+                    <option class="b" value="br">Кіпр</option>
+                    <option class="b" value="bs">Люксембург</option>
+                    <option class="b" value="bt">Мальта</option>
+                    <option class="b" value="bu">Нідерланди</option>
+                    <option class="b" value="bv">Німеччина</option>
+                    <option class="b" value="bw">Португалія</option>
+                    <option class="b" value="bx">Словенія</option>
+                    <option class="b" value="by">Угорщина</option>
+                    <option class="b" value="bz">Фінляндія</option>
+                    <option class="b" value="b1">Франція</option>
+                    <option class="b" value="b2">Швеція </option>
+                    <option class="b" value="b3">Інші... </option>
+      
+      
+                    <option class="c" value="ca">Росія</option>
+                    <option class="c" value="cb">Білорусь</option>
+                    <option class="c" value="cc">Казахстан</option>
+                    <option class="c" value="cf">Азрбайджан</option>
+                    <option class="c" value="ch">Сербія</option>
+                    <option class="c" value="ci">Туреччина</option>
+                    <option class="c" value="cj">Узбекистан</option>
+                    <option class="c" value="ck">Туркменістан</option>
+                    <option class="c" value="cl">Афганістан</option>
+                    <option class="c" value="cm">Пакистан</option>
+                    <option class="c" value="cn">Індія</option>
+                    <option class="c" value="co">Монголія</option>
+                    <option class="c" value="cp">Китай</option>
+                    <option class="c" value="cq">Тайланд</option>
+                    <option class="c" value="cr">Таджикістан</option>
+                    <option class="c" value="cs">Іран</option>
+                    <option class="c" value="ct">Грузія</option>
+                    <option class="c" value="cu">Інші...</option>
+      
+                    <option class="d" value="da">США</option>
+                    <option class="d" value="db">Канада</option>
+                    <option class="d" value="dc">Країни Південної Америки</option>
+                    <option class="d" value="dd">Країни Центральної Америки</option>
+      
+                    <option class="d" value="de">Інші...</option>
+                  </select>
+                  
+                  <select id="select-31" style="display: none;">
+                    <option class="select" value="select">Select...</option>
+                    <option class="aa" value="aaa">A-A-A</option>
+                    <option class="aa" value="aab">A-A-B</option>
+                    <option class="ab" value="aba">A-B-A</option>
+                    <option class="ab" value="abb">A-B-B</option>
+                  
+                    <option class="ac" value="aca">A-C-A</option>
+                    <option class="ac" value="acb">A-C-B</option>
+                    <option class="ba" value="baa">B-A-A</option>
+                    <option class="ba" value="bab">B-A-B</option>
+                    <option class="bb" value="bba">B-B-A</option>
+                    <option class="bb" value="bbb">B-B-B</option>
+                  
+                    <option class="bc" value="bca">B-C-A</option>
+                    <option class="bc" value="bcb">B-C-B</option>
+                    <option class="ca" value="caa">C-A-A</option>
+                    <option class="ca" value="cab">C-A-B</option>
+                    <option class="cb" value="cba">C-B-A</option>
+                    <option class="cb" value="cbb">C-B-B</option>
+                  
+                    <option class="cc" value="cca">C-C-A</option>
+                    <option class="cc" value="ccb">C-C-B</option>
+                  </select>
+              </form>
+            </div>
+            <div id="inputT">
+              <div id="textCont" >
+                <p></p>
+              </div>
+              <div class="input">
+                  <input placeholder="Вкажіть, будь-ласка, населений пункт, або кординати" type="text" id="fname" required value="">
+                  <label style="">Опишіть своє питання/пропозицію</label>
+                  <textarea placeholder="Додайте опис питання/пропозиції" name="" id="textarea" type="text" cols="30" rows="10" required value=""></textarea>
+                  <button id="bt1" type="submit">Перейти до авторизації</button>
+                </div>   
+            </div>
+            <div class="formtell">
+              <form id="form">
+              <input required type="text" name="name" placeholder="Ваше имя">
+              <input required type="email" name="email" placeholder="Ваша почта">
+              <input required type="tel" name="phone" placeholder="Ваш телефон">
+              <button id="bt2" type="submit">Завантажити дані на сайт</button>
+              </form>
+            </div>
+        </div>
+      </form>
           <!--footer-->
           <footer class="footer-distributed">
           
@@ -230,6 +396,7 @@
           </footer>
 
         </div>
+
     </div>
         
     <script src="js/contenttransform.js"></script>
@@ -237,6 +404,9 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/h3apear.js"></script>
+    <script src="js/ap.js"></script>
+    <script src="js/form.js"></script>
+
 
 </body>
 </html>
