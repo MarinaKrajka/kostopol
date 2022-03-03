@@ -38,7 +38,7 @@
         font-size: 0.9rem;
       }
 }
-
+/*landscape*/
 @media screen and (max-height: 490px) and (orientation: landscape) {
     
     .links {
@@ -67,17 +67,55 @@
     p {
         font-size: 100%;
     }
+    /*form*/
+    select {
+        width: 30%;
+        height: 20vh;
+        font-size: large;
+    }
+    .dinsps {
+        height: 36vh;
+    }
+    #inputT.active {
+        height: 125vh;
+    }
+    input {
+        height: 14vh;
+    }
+    #bt1 {
+        height: 14vh;
+        text-shadow: 2px 1px #7a0505;
+        font-size: x-large;
+    }
+    #bt2 {
+        height: 14vh;
+        text-shadow: 2px 1px #1f53e752;
+        font-size: x-large;
+        font-weight: 600;
+    }
+    .formtell {
+        height: 74vh;
+    }
     
-}
-@media screen and (max-height: 800px) and (orientation: portrait) {
+
+@media screen and (min-height: 690px) {
     
     .links {
         margin-top: 20%;
     }
-}
 
+    .content {
+    
+    }
+    .dinsps {
+
+    }
+    
+
+}
 @media screen and(min-width: 655px) {
     .container {
         transform-style: preserve-3d !important;
       }
+}
 }
