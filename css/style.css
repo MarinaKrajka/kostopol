@@ -468,8 +468,11 @@ select {
   word-break: break-all;
 }
 option {
-  background: #2c38e2e3;
+  background: #a70303e3;
   height: 20%;
+  font-size: medium;
+  font-family: cursive;
+
 }
 
 #dinsps2 {
