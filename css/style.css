@@ -11,7 +11,7 @@ body {
 
 body,
 button {
-  font-family: sans-serif;
+  font-family: Arial;
 }
 
 .container {
@@ -494,6 +494,8 @@ option {
 
 #inputT {
   display: none;
+  /*height: 65vh;*/
+  position: relative;
   
 }
 .input {
@@ -502,7 +504,7 @@ option {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height:50vh;
+  /*height:50vh;*/
  
 }
 input {
@@ -516,7 +518,7 @@ input {
     background: #2b2b0d;
     border: 2px solid #f9f9f9cf;
     color: #faffffb5;
-    font-weight: 550;
+    font-weight: 300;
 }
 #textCont {
   text-align: center;
@@ -528,11 +530,11 @@ input {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-size: large;
+  font-size: medium;
   background: #3c3c12ba;
   border: 2px solid #ffffff9e;
   color: #faffffb5;
-  font-weight: 550;
+  font-weight: 300;
 }
 #bt1 {
   width: 80%;
@@ -553,7 +555,6 @@ input {
   overflow-wrap: break-word;
   word-break: break-all;
   font-weight: 400;
-  height: 11vh;
 }
 
 /*buttons*/
@@ -580,7 +581,8 @@ input {
   display: none;
   flex-direction: column;
   margin-bottom: 6%;
-  height: 65vh;
+  /*height: 65vh;*/
+  position: relative;
 }
 .formtell.active {
   display:flex;
@@ -633,6 +635,7 @@ ol {
   margin-top: 20px;
   margin-bottom: 20px;
 	overflow: hidden;
+  position: relative;
 }
 
 /*section {
