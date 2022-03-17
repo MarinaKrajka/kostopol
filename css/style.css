@@ -519,6 +519,7 @@ input {
     border: 2px solid #f9f9f9cf;
     color: #faffffb5;
     font-weight: 300;
+    font-size: large;
 }
 #textCont {
   text-align: center;
@@ -534,7 +535,8 @@ input {
   background: #3c3c12ba;
   border: 2px solid #ffffff9e;
   color: #faffffb5;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: large;
 }
 #bt1 {
   width: 80%;
