@@ -657,7 +657,7 @@ ol {
   display: flex;
   justify-content: center;
 	color:  #ffffff;
-	font: normal 28px 'Roboto', cursive;
+	font: normal 28px 'Roboto';
   margin-bottom: 30px;
 	
 }
