@@ -469,7 +469,7 @@ select {
   align-items: center;
   text-align: center;
   font-size: 3vh;
-  font-family: fantasy;
+  font-family: Arial;
   overflow-wrap: break-word;
   word-break: break-all;
 }
