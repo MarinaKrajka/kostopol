@@ -63,7 +63,7 @@
         font-size: 100%;
     }
     /*form*/
-    select {
+    /*select {
         width: 30%;
         height: 20vh;
         font-size: large;
@@ -90,7 +90,7 @@
     }
     .formtell {
         height: 74vh;
-    }
+    }*/
     /*footer*/
     .footer-icons {
        width: 100vh;
