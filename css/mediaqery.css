@@ -79,7 +79,6 @@
     }
     #bt1 {
         height: 25vh;
-        text-shadow: 2px 1px #7a0505;
         font-size: x-large;
     }
     #bt2 {
@@ -110,12 +109,22 @@
     .dinsps {
 
     }
-    
+  }
+}
 
-}
-/*@media screen and(min-width: 655px) {
-    .container {
-        transform-style: preserve-3d !important;
+@media screen and (min-width: 900px) {
+    .content {
+        width: 60%;
       }
-}*/
+    .footer-distributed .footer-right p {
+        margin: 41px 1px 41px 0;
+        text-align: center;
+    }  
 }
+@media screen and (min-width: 1200px) {
+    .content {
+        width: 50%;
+      }
+}
+
+
