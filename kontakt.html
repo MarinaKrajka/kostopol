@@ -7,6 +7,8 @@
     <title>Проект Полісся</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqery.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+
 </head>
 <body>    
     <div class="container">
@@ -34,10 +36,10 @@
                 <a href="https://science-education.ru/ru/article/view?id=19815" style="--i: 0.50s;">Економічний патріотизм</a>
               <li><a href="http://archiwum.radiopolsha.pl/6/249/Artykul/336129" style="--i: 0.50s;">Приклад Польщі</a>
               </li>
-              <li><a href="page6.html" style="--i: 0.50s;">Приклад Германії</a>
+              <li><a href="page6.php" style="--i: 0.50s;">Інформаційна війна</a>
               </li>
               <li>
-                <a href="region.html" style="--i: 0.65s;">Регіони</a>
+                <a href="region.php" style="--i: 0.65s;">Регіони</a>
               </li>
               <li>
                 <a href="page8Diaty.html" style="--i: 0.75s;">Діяти</a>
@@ -52,6 +54,7 @@
 
         <div class="content">
           <h3 class="whoare" style="padding-bottom: 20%;">Учимся JavaScript</h3>
+          <script src="//megatimer.ru/get/846b8ab153a97bc77a254eaf18359b99.js"></script>
           <div class="textcontent">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloribus deleniti laboriosam inventore voluptatum necessitatibus iste voluptatibus iusto! Autem natus facilis unde ab voluptates expedita totam sed? Explicabo, recusandae quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloribus deleniti laboriosam inventore voluptatum necessitatibus iste voluptatibus iusto! Autem natus facilis unde ab voluptates expedita totam sed? Explicabo, recusandae quos.</p>  
           </div>
@@ -116,53 +119,45 @@
            <li><a href="#" onclick="cssClick(this)" class="notact">Контакты</a></li>
           </ol>
           <!--footer-->
+          <!--<section>Footer Example 5</section>-->
           <footer class="footer-distributed">
-          
             <div class="footer-left">
-      
-              <h3>F - <span>ВЕНУС</span></h3>
-      
-              <p class="footer-links">
-                <a href="index.html">Про проект</a>
-                ·
-                <a href="#">Технології ремонту</a>
-                ·
-                <a href="#">Ціни</a>
-                ·
-                <a href="#">Вакансії</a>
-                ·
-                <a href="#">Публічні закупівлі</a>
-                ·
-                <a href="#">Контакти</a>
+              <h3>W<span>UKRAINE</span></h3>
+              <p class="footer-links" style="display: flex; flex-direction: column; align-items: flex-start">
+                <a href="aboutProject.html">Інформація про сайт/проект</a>
+                 <br>
+                <a href="clock.html">Звернути увагу на час</a> 
+                <br>
+                <a href="page8Diaty.html#helper">Запропонувати свою допомогу</a>
+                <br>
+                <a href="page6.php#finderzmi">Переглянути, як формується громадська думка</a>
+                <br>
+                <a href="region.php#finder">Пошук пропозицій в базі данних</a>
+                <br>
+                <a href="#">Аналітика. Статті. Прогнози. Минуле і майбутнє.</a>
               </p>
-      
-              <p class="footer-company-name">F - ВЕНУС © 1997</p>
-      
-              <div class="footer-icons">
-      
+              <p class="footer-company-name" style="margin-left: 25px">W - UKRAINE © 2022</p>
+              <div class="footer-icons" style="display: flex; flex-direction: row; justify-content: space-around; margin-bottom: 20px">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-github"></i></a>
-      
               </div>
-      
             </div>
-      
             <div class="footer-right">
-      
-              <p>Напишіть нам свої пропозиції/питання</p>
-      
-              <form action="#" method="post">
-      
-                <input type="text" name="email" placeholder="Email">
-                <textarea name="message" placeholder="Message"></textarea>
-                <button>Send</button>
-      
+              <p>Напишіть нам свої пропозиції, або зауваження щодо роботи сайту</p>
+              <form id="mailForm" action="" method="">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="kostopol.com">
+                <input type="hidden" name="admin_email" value="kostopilcity@gmail.com">
+                <input type="hidden" name="form_subject" value="Пропозиції щодо роботи сайту">
+                <!-- END Hidden Required Fields -->
+                <input type="email" name="email" placeholder="Your email" required>
+                <input type="phone" name="phone" placeholder="Your phone">
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button>Відправити</button>
               </form>
-      
             </div>
-      
           </footer>
 
         </div>
@@ -170,6 +165,7 @@
       <script src="js/contenttransform.js"></script>
       <script src="js/lern.js"></script>
       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+      <script src="js/mail.js"></script>
       <script src="js/jquery.js"></script>
       <script src="js/h3apear.js"></script>
 </body>
