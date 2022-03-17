@@ -11,7 +11,10 @@ body {
 
 body,
 button {
-  font-family: Arial;
+  font-family: roboto;
+  font-size: medium;
+  font-weight: bold;
+  color: #3b89c8;
 }
 
 .container {
@@ -368,7 +371,16 @@ ul {
   margin-right: auto;
   text-align: inherit;
   color: rgba(212, 234, 255, 0.671);
-  font-weight: 600;
+}
+
+.textcontent p {
+  font-family: 'Segoe UI';
+  font-size: 22px;
+  font-weight:lighter;
+}
+.textcontent a {
+  color: #6060ff;
+  font-weight: 700;
 }
 .content.active {
   margin-left: 30px;
@@ -434,6 +446,13 @@ ul {
   flex-direction: column;
   width: 100%;
 }
+.forms, input {
+  text-indent: 15px;
+}
+.forms, textarea {
+  text-indent: 15px;
+}
+
 
 .dinsps {
   position: relative;
@@ -496,7 +515,9 @@ option {
   display: none;
   /*height: 65vh;*/
   position: relative;
-  
+  font-family: 'Segoe UI';
+  font-size: 22px;
+  font-weight: lighter;  
 }
 .input {
   margin-top: 4%;
@@ -504,9 +525,8 @@ option {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  /*height:50vh;*/
- 
 }
+
 input {
     display: flex;
     height: 11vh;
@@ -515,12 +535,15 @@ input {
     margin-right: auto;
     /*margin-top: auto;*/
     margin-bottom: 5%;
-    background: #2b2b0d;
-    border: 2px solid #f9f9f9cf;
-    color: #faffffb5;
-    font-weight: 300;
+    background: #444444;
+    border-top: 2px solid #f9f9f978;
+    color: #c4c6c6;
+    border-right: 2px solid #ffffff69;
     font-size: large;
+    font-family: georgia;
+    margin-bottom: 4vh;
 }
+
 #textCont {
   text-align: center;
 }
@@ -531,21 +554,24 @@ input {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-size: medium;
-  background: #3c3c12ba;
-  border: 2px solid #ffffff9e;
-  color: #faffffb5;
-  font-weight: 600;
+  background: #444444;
+  border-top: 2px solid #ffffff7d;
+  color: #fafdfdb5;
+  border-right: 2px solid #ffffff80;
+  /* font-weight: 600; */
   font-size: large;
+  font-family: georgia;
 }
 #bt1 {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   height: 11vh;
-  background-color: rgb(190 191 113 / 88%);
-  color: #ffffff;
-  text-shadow: 1px 1px #7a0505;
+  border-radius: 3px;
+  background-color: #33383b;
+  padding: 15px 50px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 
@@ -554,9 +580,6 @@ input {
   flex-direction: column;
 }
 #fname {
-  overflow-wrap: break-word;
-  word-break: break-all;
-  font-weight: 400;
 }
 
 /*buttons*/
@@ -574,7 +597,9 @@ input {
     margin-left: auto;
     margin-right: auto;
     height: 11vh;
-    color: rgb(6, 6, 83);
+    border-radius: 3px;
+    background-color: #33383b;
+    padding: 15px 50px;
 }
 
 /*авторизация*/
@@ -582,8 +607,7 @@ input {
 .formtell {
   display: none;
   flex-direction: column;
-  margin-bottom: 6%;
-  /*height: 65vh;*/
+  margin-bottom: 5vh;
   position: relative;
 }
 .formtell.active {
@@ -631,7 +655,7 @@ ol {
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
+	font: 16px sans-serif;
 	text-align: left;
 	padding: 50px 60px 40px;
   margin-top: 20px;
@@ -655,7 +679,7 @@ ol {
 /* Footer left */
 
 .footer-distributed .footer-left{
-	float: left;
+  border: 1px solid white;
 }
 
 /* The company logo */
@@ -666,6 +690,7 @@ ol {
 	color:  #ffffff;
 	font: normal 28px 'Roboto';
   margin-bottom: 30px;
+  margin-top: 20px;
 	
 }
 
@@ -683,11 +708,14 @@ ol {
 
 
 .footer-distributed .footer-links a{
-	display:flex;
-	line-height: 1.8;
-	text-decoration: none;
-	color: rgba(255, 253, 253, 0.869);
-}
+  display: flex;
+  line-height: 1.8;
+  text-decoration: none;
+  color: rgba(255, 253, 253, 0.869);
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 400;
+  font-family: cursive;}
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
@@ -699,6 +727,9 @@ ol {
 
 .footer-distributed .footer-icons{
 	margin-top: 40px;
+  display: flex; flex-direction: row;
+   justify-content: space-around;
+    margin-bottom: 20px"
 }
 
 
@@ -728,14 +759,16 @@ ol {
 .footer-distributed .footer-right p{
 	display: inline-block;
 	vertical-align: top;
-	margin: 15px 42px 20px 0;
+	margin: 32px 42px 20px 0;
 	color: #ffffff;
+  font-family: monospace;
 }
 
 /* The contact form */
 
 .footer-distributed form{
-	display: inline-block;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .footer-distributed form input,
@@ -784,16 +817,12 @@ ol {
 .footer-distributed form button{
 	border-radius: 3px;
 	background-color:  #33383b;
-	color: #ffffff;
-	/*border: 0;*/
 	padding: 15px 50px;
-	font-weight: bold;
-	/*float: right;*/
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
 
 	.footer-distributed {
 		font: 14px sans-serif;
@@ -840,9 +869,9 @@ ol {
 	}
 
 	.footer-distributed form button{
-		/*float: none;*/
+		float: none;
 	}
-}
+}*/
 /*timer*/
 
 #countdown {
