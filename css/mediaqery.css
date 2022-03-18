@@ -26,11 +26,14 @@
       }*/
 
       .dinsps {
-          flex-direction: column;
+          /*flex-direction: column;*/
       }
 
       .logo {
         font-size: 0.9rem;
+      }
+      .footer-distributed form input, .footer-distributed form textarea {
+          width: 80%;
       }
 }
 /*landscape*/
@@ -124,6 +127,9 @@
 @media screen and (min-width: 1200px) {
     .content {
         width: 50%;
+      }
+      .footer-distributed {
+       padding: 50px 95px 40px;
       }
 }
 
