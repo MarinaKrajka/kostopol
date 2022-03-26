@@ -60,6 +60,7 @@ button {
   text-shadow: 3px 3px 4px rgb(0, 0, 0), 0 0 1em rgba(247, 252, 0, 0), 0 0 0.3em rgb(0, 0, 0);
   letter-spacing: 2px;
   line-height: 4rem;
+  color: red;
 }
 
 .logo span {
