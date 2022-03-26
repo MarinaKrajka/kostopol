@@ -11,7 +11,7 @@ body {
 
 body,
 button {
-  font-family: roboto;
+  font-family: -webkit-body;
   font-size: medium;
   font-weight: bold;
   color: #3b89c8;
@@ -198,15 +198,13 @@ header {
   flex:content;
   position: absolute;
   max-width: 90%;
-  right: 35px;
+  right: 17px;
   height: 90vh;
   z-index: 2;
   top:10px;
   bottom: auto;
   justify-content: center;
   align-items:center;
-
-
 }
 
 ul {
@@ -231,6 +229,9 @@ ul {
   transform: translateY(10px);
   animation: hide 0.8s forwards ease;
 
+}
+.links li {
+  padding-bottom: 25px;
 }
 
 
@@ -337,7 +338,6 @@ ul {
   opacity: 0;
   transform: translateY(0);
   padding-top: 12%;
-  padding-bottom: 5%;
   text-align: center;
   color: rgb(255, 0, 0);
   text-shadow: 3px 0px 0px rgba(252, 0, 0, 0.411), 0 0 1em rgb(0, 0, 0), 0 0 0.3em rgb(0, 0, 0);
@@ -366,7 +366,7 @@ ul {
   flex: content;
   flex-direction: column;
   margin-top: 190px;
-  width: 75%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   text-align: inherit;
@@ -377,6 +377,7 @@ ul {
   font-family: 'Segoe UI';
   font-size: 20px;
   font-weight:lighter;
+  margin-top: 20px;
 }
 .textcontent a {
   color: #6060ff;
@@ -569,7 +570,7 @@ input {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: 11vh;
+  height: 12vh;
   border-radius: 3px;
   background-color: #33383b;
   padding: 15px 50px;
@@ -599,7 +600,7 @@ input {
   width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: 11vh;
+    height: 12vh;
     border-radius: 3px;
     background-color: #33383b;
     padding: 15px 50px;
@@ -661,7 +662,7 @@ ol {
 	font: 16px sans-serif;
 	text-align: left;
 	padding: 50px 15px 40px;
-  margin-top: 20px;
+  margin-top: 33px;
   margin-bottom: 20px;
 	overflow: hidden;
   position: relative;
@@ -763,9 +764,10 @@ ol {
 .footer-distributed .footer-right p{
 	display: inline-block;
 	vertical-align: top;
-	margin: 32px 42px 20px 0;
+	margin: 25px 25px 25px 25px;
 	color: #ffffff;
   font-family: 'Segoe UI';
+  text-align: center;
 }
 
 /* The contact form */
@@ -875,6 +877,18 @@ ol {
 		float: none;
 	}
 }*/
+
+/*smartTable css*/
+#tableContainer {
+  margin-top: 10px;
+margin-bottom: 40px;
+width: 100%;
+overflow-y: auto;
+max-height: 90vh;
+}
+table tr td.td2:last-child {
+    word-break: break-word;
+}
 /*timer*/
 
 #countdown {
@@ -884,4 +898,29 @@ ol {
   color: red;
   font-size: 25px;
   font-weight: 700;
+}
+.dirImg {
+  width: 15%;
+   padding: 15px;
+   float: right;
+}
+/*Выпадающий контент*/
+.more {
+  display: none;
+}
+.more.active {
+  display: inline;
+}
+.butMoreCont {
+  background:none;
+  opacity: 0.7;
+  /* border: 1px solid #bd3838; */
+  border-radius: 12px;
+  width: 60vw;
+  margin-top: 25px;
+  z-index: 15;
+
+}
+.butMoreCont.active {
+  background: wheat;
 }
