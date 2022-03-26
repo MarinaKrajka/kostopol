@@ -916,8 +916,8 @@ table tr td.td2:last-child {
   opacity: 0.7;
   /* border: 1px solid #bd3838; */
   border-radius: 12px;
-  width: 60vw;
-  margin-top: 25px;
+  width: 100%;
+  margin-top: 20px;
   z-index: 15;
 
 }
