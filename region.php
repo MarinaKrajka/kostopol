@@ -107,8 +107,8 @@ require_once 'php/config/connect.php';
           </div>-->
           <div class="textcontent">
             <p>
-              Всі пропозиції допомоги та інші питання надані читачами WUKRAINE попадають в єдину базу даних, що зберігається на серверах Fornex. Дані представлені у вигляді таблиці, в якій простим пошуком можна відфільтрувати записи відповідно до своїх потреб. <br> Для швидкості і зручності записи вносятсья людьми без проходження їх ідентифікації. <br>
-              WUKRAINE надає можливість оперативно розміщувати та знаходити інформацію щодо пропозицій та потреб людей, яких зачепила війна в Україні. 
+              Всі пропозиції допомоги та інші питання надані <span class="more" id="more"> читачами WUKRAINE попадають в єдину базу даних, що зберігається на серверах Fornex. Дані представлені у вигляді таблиці, в якій простим пошуком можна відфільтрувати записи відповідно до своїх потреб. <br> Для швидкості і зручності записи вносятсья людьми без проходження їх ідентифікації. <br>
+              WUKRAINE надає можливість оперативно розміщувати та знаходити інформацію щодо пропозицій та потреб людей, яких зачепила війна в Україні.</span><button class="butMoreCont">...</button> 
             </p> 
             </div>
 
@@ -236,6 +236,25 @@ require_once 'php/config/connect.php';
 
         </div>
     </div>
+    <!--Выпадающий контент-->
+    <script>
+        let buttons = document.getElementsByClassName("butMoreCont");
+        for (let i = 0; i < buttons.length; i++) {
+          buttons[i].addEventListener("click", function readMore () {
+            let more = this.previousSibling;
+
+            if (more.classList.contains("active")) {
+              more.classList.remove("active");
+              this.innerHTML ="...";
+            }
+            else {
+              more.classList.toggle("active");
+              this.innerHTML ="^"
+            }
+          });
+        }
+    </script>
+
         <script src="js/contenttransform.js"></script>
         <!--<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>-->
         <script src="js/h3apear.js"></script>
